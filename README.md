@@ -2,12 +2,26 @@
 Origin: https://github.com/MVS-sysgen/sysgen
 Fork:   https://github.com/moshix/sysgen
 
-Welcome to the automated MVS 3.8j sysgen. To install MVS 3.8j first install the required packages:
+Welcome to the automated MVS 3.8j sysgen.
 
-**Ubuntu**:
+## Install
 
-Run: `sudo apt-get install m4 make autoconf automake cmake flex build-essential regina-rexx libbz2-dev libregina3-dev zlib1g-dev unzip c3270 ncat`
+### **Hercules**
+- Author: Roger Bowler.
+- Mantainers: Jay Maynard, Jan Jaeger and others. 
+- https://sdl-hercules-390.github.io/html/hercinst.html
 
+## Debian/Ubuntu packages:
+
+```bash
+sudo apt-get -y install \
+    autoconf automake build-essential c3270\
+    cmake flex gawk git libbz2-dev libcap2-bin \
+    libltdl-dev libtool-bin m4 make ncat time \
+    unzip wget zlib1g-dev
+
+sudo apt-get -y install libregina3-dev regina-rexx # **WARNING BELOW**
+```
 - Latest REXX version (3.9) is not working with Hercules.
 - I am using REXX-Regina_3.6 5.00 31 Dec 2011
 - https://sourceforge.net/projects/regina-rexx/files/regina-rexx/3.6/Regina-REXX-3.6.tar.gz/download
@@ -29,7 +43,6 @@ Execute Sysgen
 # Create RAM disk
 ./sysgen.sh
 ```
-
 
 After building, make a copy of DADS and execute
 
