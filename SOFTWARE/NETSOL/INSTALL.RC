@@ -1,0 +1,3 @@
+* Installing NETSOL
+* Launching Automation REXX script
+exec ../automate.rexx ../SOFTWARE/NETSOL/install.txt hercules.log -d &&

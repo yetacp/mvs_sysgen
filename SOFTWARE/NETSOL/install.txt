@@ -1,0 +1,5 @@
+# NETSOL Install
+/$CA
+$HASP000 OK;sh ./submit.sh ../SOFTWARE/NETSOL/01_install_netsol.jcl
+/ $HASP395 NETSOL   ENDED;/$VS,'S ZTIMER'
+# NETSOL install complete
