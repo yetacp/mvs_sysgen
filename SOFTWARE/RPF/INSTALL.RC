@@ -1,0 +1,3 @@
+* Installing RPF
+* Launching Automation REXX script
+exec ../automate.rexx ../SOFTWARE/RPF/install.txt hercules.log -d &&

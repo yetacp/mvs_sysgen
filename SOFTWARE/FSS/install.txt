@@ -1,0 +1,5 @@
+# FSS Install
+/$CA
+$HASP000 OK;sh ./submit.sh ../SOFTWARE/FSS/01_install_fss.jcl
+/ $HASP395 FSS      ENDED;/$VS,'S ZTIMER'
+# FSS install complete

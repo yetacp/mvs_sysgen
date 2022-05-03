@@ -1,0 +1,3 @@
+* FSI Install
+* Launching Automation REXX script
+exec ../automate.rexx ../SOFTWARE/FSI/install.txt hercules.log -d &&

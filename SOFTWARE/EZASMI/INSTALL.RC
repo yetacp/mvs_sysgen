@@ -1,0 +1,3 @@
+* Installing EZASMI
+* Launching Automation REXX script
+exec ../automate.rexx ../SOFTWARE/EZASMI/install.txt hercules.log -d &&

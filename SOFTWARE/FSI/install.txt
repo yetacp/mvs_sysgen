@@ -1,0 +1,5 @@
+# FSI Install
+/$CA
+$HASP000 OK;sh ./submit.sh ../SOFTWARE/FSI/01_install_fsi.jcl
+/ $HASP395 FSI      ENDED;/$VS,'S ZTIMER'
+# FSI_FSS install complete

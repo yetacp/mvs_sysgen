@@ -1,0 +1,3 @@
+* Installing BLKDISK
+* Launching Automation REXX script
+exec ../automate.rexx ../SOFTWARE/BLKDISK/install.txt hercules.log -d &&

@@ -1,0 +1,5 @@
+# BLKDISK Install
+/$CA
+$HASP000 OK;sh ./submit.sh ../SOFTWARE/BLKDISK/01_install_blkdisk.jcl
+/ $HASP395 BLKDISK  ENDED;/$VS,'S ZTIMER'
+# BLKDISK install complete
