@@ -169,6 +169,8 @@ if [ $NOINSTALL -eq 1 ]; then
 else
     echo_step 'Installing third party softwares'
     bash 06_sysgen_software_install.sh
+    echo_step 'Finalizing'
+    bash 07_sysgen_finalizing.sh
 fi
 
 ## TODO add software install

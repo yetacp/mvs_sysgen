@@ -64,13 +64,13 @@
 //SYSPRINT DD  SYSOUT=*
 //SYSIN    DD  *
  COPY INDD=((DDTLOAD,R)),OUTDD=LPALIB
- SELECT MEMBER=(IGC0023C)
-/*
+ SELECT MEMBER=((IGC0023C,IGC0024A))
+/* USE: MVS_SYSGEN => (IGC0024A) // TK4- => (IGC0023C)
 //******************************************************************/
 //* COPY PROGRAMS TO LINKLIB                                       */
 //******************************************************************/
 //COPYLINK EXEC PGM=IEBCOPY
-//LINKLIB   DD  DISP=SHR,DSN=SYS1.LINKLIB
+//LINKLIB   DD  DISP=SHR,DSN=SYS2.LINKLIB
 //DDTLOAD   DD  DISP=SHR,DSN=SYSGEN.DDT.LOAD
 //SYSPRINT  DD  SYSOUT=*
 //SYSIN     DD  *
