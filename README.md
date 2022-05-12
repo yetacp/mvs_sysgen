@@ -1,8 +1,75 @@
 # Automated MVS3.8j Sysgen from Jay Moseley site
-Origin: https://github.com/MVS-sysgen/sysgen
-Fork:   https://github.com/moshix/sysgen
+- Origin: https://github.com/MVS-sysgen/sysgen
+- Fork:   https://github.com/moshix/sysgen
 
 Welcome to the automated MVS 3.8j sysgen.
+
+## Components
+
+Except Hercules, I downloaded the software below and I put the installers inside the repository to allow offline installation.
+
+### **Automated MVS3.8j Sysgen** from Jay Moseley site
+- Origin: https://github.com/MVS-sysgen/sysgen
+- Fork:   https://github.com/moshix/sysgen
+
+### **RDRPrep**
+- Convert ASCII JCL files to EBCDIC
+- Author: James M. Morrison
+- Source: https://github.com/mainframed/rdrprep
+
+### **FSS, FSI and Scruples**
+- FSS: C Full Screen API
+- FSI: Assembly Full Screen API
+- Scruples: Panel to FSS Compiler
+- Author: Tommy Sprinkle
+- Source: http://tommysprinkle.com/mvs
+
+### **PrtSpool**
+- Print spooler for MVS3.8j
+- Author: Tim Pinkawa
+- Source: http://www.timpinkawa.net/hercules
+
+### **BREXX: a MVS 3.8j REXX**
+- https://github.com/mvslovers/brexx370
+
+### **RPF (Rob's Programming Facility) 1.92**
+- Author: Rob Prins
+- Source: http://www.prince-webdesign.nl/rpf
+
+### **RFE (Review Front End) 50.3**
+- Author: Greg Price - Prycroft Six
+- Source: http://www.prycroft6.com.au/REVIEW/index.html
+
+### **FTPD**
+- Authors: Jason Winter (JCC) and Juergen Winkelmann
+
+### **SXMaclib, EZASMI and MVSDDT**
+- Author: Shelby Lynne Beach
+- Source: http://www.mvsddt.altervista.org/
+
+### [**TODO**] Other contributions 
+- I need to reference other authors and contributions.
+
+## Someday, I am going to install
+
+### **Kicks**: A transaction processing system for CMS & TSO
+An alternative to CICS for MVS3.8j.
+- Author: Mike Noel
+- Source: http://www.kicksfortso.com/
+- Permissive license to distribute code inside MVS? I don't think so.
+
+### **MvsSplit**
+- Print spooler for MVS3.8j
+- Source: https://github.com/dasta400/mvssplitspl
+- Fork: https://github.com/moshix/mvssplitspl
+
+### **See other interesting MVS projects**
+- https://github.com/mainframed/tk4
+- https://github.com/mainframed/DOGECICS
+- https://github.com/HackerSmacker/Lua370
+
+### Misc
+- https://manytools.org/hacker-tools/ascii-banner/
 
 ## Install
 
