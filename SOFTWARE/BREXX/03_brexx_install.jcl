@@ -10,7 +10,7 @@
 //* ------------------------------------------------------------------
 //STEP10  EXEC  PGM=IEBCOPY
 //SYSPRINT  DD  SYSOUT=*
-//DDIN      DD  DSN=SYSGEN.BREXX.LINKLIB,DISP=SHR
+//DDIN      DD  DSN=BREXX.LINKLIB,DISP=SHR
 //DDOUT     DD  DSN=SYS2.LINKLIB,DISP=SHR
 //SYSIN     DD  *
   COPY INDD=((DDIN,R)),OUTDD=DDOUT
@@ -20,7 +20,7 @@
 //* ------------------------------------------------------------------
 //STEP20  EXEC  PGM=IEBCOPY
 //SYSPRINT  DD  SYSOUT=*
-//DDIN      DD  DSN=SYSGEN.BREXX.PROCLIB,DISP=SHR
+//DDIN      DD  DSN=BREXX.PROCLIB,DISP=SHR
 //DDOUT     DD  DSN=SYS2.PROCLIB,DISP=SHR
 //SYSIN     DD  *
   COPY INDD=((DDIN,R)),OUTDD=DDOUT

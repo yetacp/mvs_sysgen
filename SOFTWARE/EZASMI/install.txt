@@ -1,7 +1,7 @@
 # EZASMI Install
 /$CA
 $HASP000 OK;sh ./submit.sh ../SOFTWARE/EZASMI/01_install_sxmaclib.jcl
-/*05 IEC301A S JOB INIT     DSNAME SYS1.VSAM.MASTER.CATALOG;/r 5,sysprog
+/*05 IEC301A S JOB INIT     DSNAME SYS1.VSAM.MASTER.CATALOG;/r 6,sysprog
 / $HASP395 SXMACLIB ENDED;sh ./submit.sh ../SOFTWARE/EZASMI/02_install_ezasmi.jcl
 / $HASP395 EZASMI   ENDED;/$VS,'S ZTIMER'
 # EZASMI install complete

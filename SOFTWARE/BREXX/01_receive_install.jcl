@@ -4,6 +4,11 @@
 //             MSGCLASS=A,
 //             MSGLEVEL=(1,1),
 //             USER=IBMUSER,PASSWORD=SYS1
+//* First step is to make an alias for QUEUE
+//ALIAS1   EXEC PGM=IDCAMS
+//SYSIN    DD *
+  DEFINE ALIAS(NAME(BREXX) RELATE(UCPUB000))
+//SYSPRINT DD  SYSOUT=*
 //* RECV370 DDNAMEs:
 //* ----------------
 //*
@@ -36,7 +41,7 @@
 //             SPACE=(CYL,(10,10)),
 //             DISP=(NEW,DELETE,DELETE)
 //* Output dataset
-//SYSUT2   DD  DSN=SYSGEN.BREXX.INSTALL,
+//SYSUT2   DD  DSN=BREXX.INSTALL,
 //             UNIT=SYSALLDA,VOL=SER=PUB001,
 //             SPACE=(CYL,(10,10,20),RLSE),
 //             DISP=(NEW,CATLG,DELETE)

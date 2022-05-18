@@ -1,5 +1,4 @@
 # Installs ASSEMBLER
-# Run with `exec automate.rexx ../SOFTWARE/ASSEMBLER/install_extras.txt`
 /$CA
 $HASP000 OK;sh ./submit.sh ../SOFTWARE/ASSEMBLER/01_sys2_maclib_install.jcl
 /*02 IEC301A S JOB INIT     DSNAME SYS1.VSAM.MASTER.CATALOG;/r 2,sysprog

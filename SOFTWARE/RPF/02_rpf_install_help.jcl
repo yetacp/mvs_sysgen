@@ -37,7 +37,7 @@
 //             DISP=(,DELETE)
 //* Output dataset
 //SYSUT2   DD  DISP=(NEW,CATLG),
-//             DSN=SYSGEN.RPF.SRPFHELP,
+//             DSN=RPF.SRPFHELP,
 //             DCB=SYS1.MACLIB,
 //             SPACE=(CYL,(1,1,5)),
 //             UNIT=SYSALLDA,

@@ -1,1 +1,4 @@
-sh ./submit.sh ../SOFTWARE/MDDIAG8/01_install_mddiag8.jcl
+# Installs MDDIAG8
+/$CA
+$HASP000 OK;sh ./submit.sh ../SOFTWARE/MDDIAG8/01_install_mddiag8.jcl
+/ $HASP395 MDDIAG8  ENDED;/$VS,'S ZTIMER'
