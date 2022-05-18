@@ -24,7 +24,7 @@
 /*
 //SORTIN DD DSN=SYS1.SECURE.CNTL(USERS),DISP=SHR
 //       DD *
-FTPD     FTPD     EK$VZYHS N                                            00000100
+FTPD     FTPD     I6115CL2 N                                            00000100
 /*
 //SORTP   EXEC PGM=SORT,REGION=512K,PARM='MSG=AP'
 //STEPLIB DD   DSN=SYSC.LINKLIB,DISP=SHR
