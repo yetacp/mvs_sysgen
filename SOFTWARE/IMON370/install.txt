@@ -1,0 +1,9 @@
+# IMON370 Install
+/$CA
+$HASP000 OK;devinit 01c ../SOFTWARE/IMON370/i370load.xmi
+HHC02245I 0:001C device initialized;sh ./submit.sh ../SOFTWARE/IMON370/01_receive_load_imon370.jcl
+/ $HASP395 IMLOAD ENDED;devinit 01c ../SOFTWARE/IMON370/i370data.xmi
+HHC02245I 0:001C device initialized;sh ./submit.sh ../SOFTWARE/IMON370/02_receive_data_imon370.jcl
+/ $HASP395 IMDATA ENDED;sh ./submit.sh ../SOFTWARE/IMON370/03_imon_tso_cmdlib.jcl
+/ $HASP395 IMINST ENDED;/$VS,'S ZTIMER'
+# IMON370 install complete
